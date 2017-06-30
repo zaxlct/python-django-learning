@@ -94,6 +94,10 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 * [Django Unleashed](https://www.amazon.com/Django-Unleashed-Andrew-Pinkham/dp/0321985079/ref=pd_sim_14_13?_encoding=UTF8&pd_rd_i=0321985079&pd_rd_r=FJBAW39ZPPH73AXZQRP0&pd_rd_w=qkuw5&pd_rd_wg=caiaO&psc=1&refRID=FJBAW39ZPPH73AXZQRP0) 内容覆盖较广，很多内容在其他书籍中并没有提及，比如密码的hash与加密等。但是没有实战项目。
 
 
+### 3. 博客
+
+* [Vitor Freitas: Simple is better than complex](https://simpleisbetterthancomplex.com/) 作者是旅居芬兰的巴西人，博客上有76篇关于 Python、Django 以及网络开发的文字。文章质量较高，可以邮件订阅。
+
 
 
 ## Django RESTful API
