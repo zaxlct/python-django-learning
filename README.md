@@ -14,6 +14,17 @@ python 和 diango 学习资料，书籍，文章，以及实战项目等等
 
 
 
+## Django 与 Python 开发环境问题
+
+**注意：[目前在维护 Django 版本](https://en.wikipedia.org/wiki/Django_(web_framework))为：Django 1.8（长期支持版，LTS），Django 1.10，Django 1.11（最新版，长期支持版，LTS，也是最后一个支持 Python2的版本）。**
+
+Django 的版本以及 Python 开发环境至关重要，请在最开始学习 Django 的时候就引起重视。由于 Python、Django以及其他第三方包的版本不同，有时候会产生与学习资料不一样的结果。建议学习过程中注意两点：
+
+* 为每一个项目建立虚拟环境，建立相对独立的开发环境
+* 严格按照学习资料的版本进行开发。注意是 Python 2 还是 Python 3，Django 的版本、以及第三方包的版本号。
+
+
+
 ## Django 基础
 
 ### 1. 视频
@@ -24,6 +35,10 @@ python 和 diango 学习资料，书籍，文章，以及实战项目等等
 * [django入门与实践](http://www.imooc.com/learn/790)
 
 这两门课基本涵盖了 Django 最核心、同时也是最常用的部分，他们会给你建立一个 Django 的整体概念，便于消除你对 Django 的陌生感和恐惧感。
+
+### 2. 文字
+
+在有了视频的感性认识之后，建议马上阅读完 Django 文档的新手入门6个部分的内容，并亲手实践让代码能跑起来。文档是最权威也是最全面的 Django 参考资料。
 
 
 
