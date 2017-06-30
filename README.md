@@ -94,30 +94,41 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 
 
 
-
 ## Django RESTful API
+
+Django 的 REST 化主要是两个第三方包：[django-rest-framework](http://www.django-rest-framework.org/) 和 [django-tastypie](https://github.com/django-tastypie/django-tastypie)。虽然后者开发时间较早，但是最推荐的是前者，即 django-rest-framework。该框架内容更全，调试也方便。
 
 ### 1. 文档
 
+django-rest-framework 的文档分为英文和中文。英文就是原版的网站，中文有两个作者的翻译，但都是只翻译了入门部分。
 
+* [英文版文档](http://www.django-rest-framework.org/tutorial/quickstart/) 
+* 中文文档有两个，可以对照看：[中文文档 Roy 版本](http://www.hi-roy.com/) 以及 [中文文档 Eason版本](https://whatwewant.gitbooks.io/django-rest-framework-tutorial-cn/content/index.html)。
 
 ### 2. 视频
 
+* [Build Your Own Backend REST API using Django REST Framework](https://www.udemy.com/django-python/learn/v4/overview) 作者是英国人 Mark Winterbottom，编程专业，而且讲课细致到位。
 
 
-### 3. 书籍
+* [Blog API with Django Rest Framework](https://www.youtube.com/watch?v=XMu0T6L2KRQ&list=PLEsfXFp6DpzTOcOVdZF-th7BS_GYGguAS) 仍然是之前提到的美国人 Austin Mitchel 的 YouTube 课程。
+
+### 3. 书籍与博客
+
+* [轻量级Django](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01M4S72G0/ref=sr_1_1?ie=UTF8&qid=1498801619&sr=8-1&keywords=%E8%BD%BB%E9%87%8F%E7%BA%A7+django) 英文版是[Lightweight Django: Using REST, WebSockets, and Backbone](https://www.amazon.com/Lightweight-Django-Using-WebSockets-Backbone/dp/149194594X/ref=sr_1_1?s=books&ie=UTF8&qid=1498801565&sr=1-1&keywords=python+lightweight)，严格来说这不是一本完全讲 rest-framework 的书，而是讲解如何从传统的 Django 过渡到前后端分离 Django 。
+* [Building RESTful Python Web Services](https://www.amazon.com/Building-RESTful-Python-Web-Services/dp/1786462257/ref=sr_1_3?s=books&ie=UTF8&qid=1498801570&sr=1-3&keywords=python+rest) 内容涉及 Python 三大网络框架：Django，Flask以及Tornado。
 
 
-
-
-
-
+* [Haiiiiiyun：Django REST 框架 V3 教程](http://www.atjiang.com/tags/#djangorestframework)，讲到 rest 的7门课程。
 
 
 
 ## Django 业界最新信息
 
-
+* [Django: Under The Hood](https://www.djangounderthehood.com/) 专注于 Django 的内容，虽然著名的 PyCon 经常请 Django 专家去演讲，但是 Django: Under The Hood 基本都是 Django 的大牛，比如2016年压轴演讲是邀请了 Instgram 的后端去讲解 INS 如何用 Django 做成了如此规模巨大的社交图片分享网站。该组织近两年的演讲内容都分享在 YouTube 上可以找到。[Django Under The Hood：YouTube地址](https://www.youtube.com/channel/UC9T1dhIlL_8Va9DxvKRowBw)
+* PyCon 也非常关注 Django 的发展。Django 并非完美无缺，在网络技术高速发展的今天，Django 也需要及时的进化以适应形势。在 PyCon 上，对 Django 热爱程序员们，提出了尖锐的 Django 问题，随后也有新的解决方案出来。的有代表性的演讲包括：
+  * [Why Django Sucks - PyCon SE 2015](https://www.youtube.com/watch?v=Niq-HoraNPo) 作者提出 Django 在某些方面跟不上网络技术的发展趋势，提出了自己的三点建议。
+  * [Reinventing Django for the Real-Time Web - PyCon 2016](https://www.youtube.com/watch?v=2sEPipctTxw&t=574s) 作者是 Django 的 Channel 部分的开发者，专注于 Socket 的包装与编程，以实现 Django 的服务器推送、异步 Socket 等功能。
+  * [Building Dynamic Dashboards With Django and D3 - PyCon US 2016](https://www.youtube.com/watch?v=XXG-ESzB9Q8&t=407s) 比较好的把 Django 与 React 以及 D3 结合在一起为警局提供数据看板项目。
 
 
 
