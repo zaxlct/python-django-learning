@@ -1,0 +1,26 @@
+# Django 中的session的一些小小的坑~！
+
+### 什么是session？
+http://www.jianshu.com/p/5dbd86ae6203			//大神的解释如此简单~！
+http://www.cnblogs.com/liruixin/p/6275767.html			//session的配置
+
+django中session默认保存位置是：Mysql数据库中的django.session数据库中
+
+
+session设置有效时间：
+```python
+SESSION_SAVE_EVERY_REQUEST = True			// 是否每次请求都保存Session，默认修改之后才保存
+SESSION_COOKIE_AGE = 60*30 				// 保存30分钟
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = False		// 关闭浏览器后依然有效
+# SESSION_COOKIE_DOMAIN = "http://192.168.0.220:4908"	// 生效的站点
+# SESSION_COOKIE_NAME = "websession"			// cookies中session名
+```
+
+
+如果session没有自动删除？
+manage.py clearsessions
+
+为什么没有自动删除？
+1. 用户没有退出登录
+2. 直接关闭浏览器
+
