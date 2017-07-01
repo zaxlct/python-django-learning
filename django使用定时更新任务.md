@@ -20,13 +20,14 @@ INSTALLED_APPS = [
 例如：
 app目录名/management/commands/mysql_count.py
 
+```python
 # coding:utf-8
 # 自定义django-admin命令
 # python manage.py mysql_count
 # 注意：在更新的时候为什么不能用get，只能用filter?
 # get获取的数据是一个字段，而filter获取的是一个列表，在更新中，应该是针对列表中的字段进行更新
 # 所以只能用filter
-```python
+
 __author__ = 'eycode'
 __date__ = '2017/4/11/011  11:33'
 
