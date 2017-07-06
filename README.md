@@ -5,13 +5,15 @@ python 和 diango 学习资料，书籍，文章，以及实战项目等等
 - 务必先阅读 [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)
 - 请遵守上面规范里的格式和排版
 
+
+
 ## Python 基础
 
 当你学到 Django 的时候，我们默认你已经有了 Python 基础。如果你没有 Python 基础，或者认为自己还需要在 Python 基础上多花一些时候，你可以选择从以下三本书着手。
 
 * [《Python编程 从入门到实践》](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01ION3VWI/ref=sr_1_1?ie=UTF8&qid=1498793018&sr=8-1&keywords=python+crash+course) （[Python Crash Course: A Hands-On, Project-Based Introduction to Programming](https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036/ref=sr_1_1?ie=UTF8&qid=1498793322&sr=8-1&keywords=python+crash+course)）这本书的作者就是 Django 项目的维护者之一。本书在学习 Python 基础的同时，可以学到一些 Python 的最佳实践（当然谈到最佳实践，有更多的进阶书籍的选择）。推荐本书的另一个原因是书籍质量不错，在美国亚马逊的 Python programming 排行榜上荣获“Best seller“，194个读者综合评分为4.4的高分（满分5分）。
 * [《"笨办法"学Python(第3版)》](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00P6OJ0TC/ref=sr_1_1?ie=UTF8&qid=1498793029&sr=8-1&keywords=python+%E7%AC%A8%E5%8A%9E%E6%B3%95) ([Learn Python the Hard Way](https://learnpythonthehardway.org/book/)) 这本书简称“LPHW”，是经久不衰的 Python 入门书。本书强调的是肌肉记忆，强调的是编程犹如弹吉他，需要亲手实践、加强肌肉记忆。如果你对编程也没有太多概念，这本书会比较轻松的带你入门，增强你的编程自信心。
-* [Python学习手册(第4版)](https://www.amazon.cn/Python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C-%E9%B2%81%E7%89%B9%E5%85%B9/dp/B004TUJ7A6/ref=sr_1_1?ie=UTF8&qid=1498793035&sr=8-1&keywords=python+%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C) （[Learning Python, 5th Edition](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730/ref=sr_1_1?ie=UTF8&qid=1498803998&sr=8-1&keywords=learning+python)）本书中文是第四版，英文已经更新到第五版。该作者长期从事 Python 教育，他知道学习者通常会问什么问题，所以讲解也是比较详细。如果你需要快速入门 Python ，不推荐这本书。但是相信你在 Python 进阶过程中，迟早会遇到一些很 Pythonic 的问题，比如：字典的三种创建方式、列表推导式（list comprehension）和装饰器（decorator）。你可以在这里快速找到详细的讲解。作者的另外还有两本高质量的 Python 书值得一读：[Python Pocket Reference: Python In Your Pocket (Pocket Reference (O'Reilly))](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016/ref=la_B000APH2C4_1_2?s=books&ie=UTF8&qid=1498794090&sr=1-2) 以及[Programming Python: Powerful Object-Oriented Programming](https://www.amazon.com/Programming-Python-Powerful-Object-Oriented/dp/0596158106/ref=la_B000APH2C4_1_3?s=books&ie=UTF8&qid=1498794090&sr=1-3)。
+* [《Python学习手册(第4版)》](https://www.amazon.cn/Python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C-%E9%B2%81%E7%89%B9%E5%85%B9/dp/B004TUJ7A6/ref=sr_1_1?ie=UTF8&qid=1498793035&sr=8-1&keywords=python+%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C) （[Learning Python, 5th Edition](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730/ref=sr_1_1?ie=UTF8&qid=1498803998&sr=8-1&keywords=learning+python)）本书中文是第四版，英文已经更新到第五版。该作者长期从事 Python 教育，他知道学习者通常会问什么问题，所以讲解也是比较详细。如果你需要快速入门 Python ，不推荐这本书。但是相信你在 Python 进阶过程中，迟早会遇到一些很 Pythonic 的问题，比如：字典的三种创建方式、列表推导式（list comprehension）和装饰器（decorator）。你可以在这里快速找到详细的讲解。作者的另外还有两本高质量的 Python 书值得一读：[Python Pocket Reference: Python In Your Pocket (Pocket Reference (O'Reilly))](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016/ref=la_B000APH2C4_1_2?s=books&ie=UTF8&qid=1498794090&sr=1-2) 以及[Programming Python: Powerful Object-Oriented Programming](https://www.amazon.com/Programming-Python-Powerful-Object-Oriented/dp/0596158106/ref=la_B000APH2C4_1_3?s=books&ie=UTF8&qid=1498794090&sr=1-3)。
 
 
 
@@ -39,6 +41,11 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 * [django入门与实践](http://www.imooc.com/learn/790)
 
 这两门课基本涵盖了 Django 最核心、同时也是最常用的部分，他们会给你建立一个 Django 的整体概念，便于消除你对 Django 的陌生感和恐惧感。
+
+如果想进一步详细的了解 Django，有个综合性的教程名叫
+* [《Django 企业开发实战》](http://django-practice-book.com)
+
+该教程包含 gibbook 电子书（免费）以及视频部分（收费）。该教程之所以比较推荐，作者是搜狐的胡阳（[博客地址](https://www.the5fire.com)）。阳哥长期在搜狐大量实际使用 Django，而且对源码比较熟悉，所以该教程讲得深入浅出，有不少独到的见解。
 
 ### 2. 文档
 
@@ -91,6 +98,9 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 
 
 * Two Scoops of Django：目前有两个版本 [Two Scoops of Django: Best Practices for Django 1.11](https://www.twoscoopspress.com/products/two-scoops-of-django-1-11) 和 [Two Scoops of Django: Best Practices for Django 1.8](https://www.amazon.com/Two-Scoops-Django-Best-Practices/dp/0981467342/ref=pd_bxgy_14_img_3?_encoding=UTF8&pd_rd_i=0981467342&pd_rd_r=FJBAW39ZPPH73AXZQRP0&pd_rd_w=qPOZk&pd_rd_wg=caiaO&psc=1&refRID=FJBAW39ZPPH73AXZQRP0) 。这本书在 Django 的名气也是非常大，基本可以说影响过大多数 Django 开发人员，如果要进阶称为 Django 专业开发者，这本书是绕不过去的必看书籍。内容主要涵盖 Django 的最佳实践。
+
+* [Django By Example](https://www.amazon.com/Django-Example-Antonio-Mele/dp/1784391913/ref=sr_1_1?ie=UTF8&qid=1499261611&sr=8-1&keywords=django+by+example) 在进阶的课程中，本书算是不错的。虽然一些章节（比如第7章）部分代码仍然存在 bug，但是一方面作者正在该书主页不断进行代码更正，另一方面也是对中国读者最好的是，这本书已经由同在简书的 [@夜夜月](http://www.jianshu.com/u/390b6edb26a8) 进行了全书翻译：[《Django By Example》中文版](http://www.jianshu.com/c/a1fbca21af87)。
+
 * [Django Unleashed](https://www.amazon.com/Django-Unleashed-Andrew-Pinkham/dp/0321985079/ref=pd_sim_14_13?_encoding=UTF8&pd_rd_i=0321985079&pd_rd_r=FJBAW39ZPPH73AXZQRP0&pd_rd_w=qkuw5&pd_rd_wg=caiaO&psc=1&refRID=FJBAW39ZPPH73AXZQRP0) 内容覆盖较广，很多内容在其他书籍中并没有提及，比如密码的hash与加密等。但是没有实战项目。
 
 
@@ -135,7 +145,4 @@ django-rest-framework 的文档分为英文和中文。英文就是原版的网�
   * [Why Django Sucks - PyCon SE 2015](https://www.youtube.com/watch?v=Niq-HoraNPo) 作者提出 Django 在某些方面跟不上网络技术的发展趋势，提出了自己的三点建议。
   * [Reinventing Django for the Real-Time Web - PyCon 2016](https://www.youtube.com/watch?v=2sEPipctTxw&t=574s) 作者是 Django 的 Channel 部分的开发者，专注于 Socket 的包装与编程，以实现 Django 的服务器推送、异步 Socket 等功能。
   * [Building Dynamic Dashboards With Django and D3 - PyCon US 2016](https://www.youtube.com/watch?v=XXG-ESzB9Q8&t=407s) 比较好的把 Django 与 React 以及 D3 结合在一起为警局提供数据看板项目。
-
-
-
 
