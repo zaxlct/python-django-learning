@@ -1,5 +1,6 @@
 # python-django-learning
-python 和 diango 学习资料，书籍，文章，以及实战项目等等
+- python 和 diango 学习资料，书籍，文章，以及实战项目等等
+- QQ 交流、斗图、红包群 163801325
 
 ## 项目贡献规范
 - 务必先阅读 [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)
