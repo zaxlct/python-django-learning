@@ -10,13 +10,13 @@
 
 ## Python 基础
 
-当你学到 Django 的时候，我们默认你已经有了 Python 基础。如果你没有 Python 基础，或者认为自己还需要在 Python 基础上多花一些时候，你可以选择从以下三本书着手。
+当你学到 Django 的时候，我们默认你已经有了 Python 基础。如果你没有 Python 基础，或者认为自己还需要在 Python 基础上多花一些时间，你可以选择从以下三本书着手。
 
 * [《Python编程 从入门到实践》](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01ION3VWI/ref=sr_1_1?ie=UTF8&qid=1498793018&sr=8-1&keywords=python+crash+course) （[Python Crash Course: A Hands-On, Project-Based Introduction to Programming](https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036/ref=sr_1_1?ie=UTF8&qid=1498793322&sr=8-1&keywords=python+crash+course)）这本书的作者就是 Django 项目的维护者之一。本书在学习 Python 基础的同时，可以学到一些 Python 的最佳实践（当然谈到最佳实践，有更多的进阶书籍的选择）。推荐本书的另一个原因是书籍质量不错，在美国亚马逊的 Python programming 排行榜上荣获“Best seller“，194个读者综合评分为4.4的高分（满分5分）。
 
 * [《"笨办法"学Python(第3版)》](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00P6OJ0TC/ref=sr_1_1?ie=UTF8&qid=1498793029&sr=8-1&keywords=python+%E7%AC%A8%E5%8A%9E%E6%B3%95) ([Learn Python the Hard Way](https://learnpythonthehardway.org/book/)) 这本书简称“LPHW”，是经久不衰的 Python 入门书。本书强调的是肌肉记忆，强调的是编程犹如弹吉他，需要亲手实践、加强肌肉记忆。如果你对编程也没有太多概念，这本书会比较轻松的带你入门，增强你的编程自信心。
 
-* [《Python 基础教程》](https://www.amazon.cn/%E5%9B%BE%E7%81%B5%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E4%B8%9B%E4%B9%A6-Python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E8%B5%AB%E7%89%B9%E5%85%B0/dp/B00KAFX65Q/ref=sr_1_1?ie=UTF8&qid=1508737548&sr=8-1&keywords=python+novice)([Beginning Python: From Novice to Professional](https://www.amazon.cn/Beginning-Python-From-Novice-to-Professional-Hetland-Magnus-Lie/dp/1484200292/ref=sr_1_4?ie=UTF8&qid=1508737548&sr=8-4&keywords=python+novice)) 如果在这三本中选一本必看的基础书，个人更偏好、也更推荐这一本。作者对基础知识的讲解清晰明了，内容简单但是并不肤浅。讲解过程通畅，基本不存在费解的情况。代码小片段实例比比皆是，马上就可以动手实践来理解概念，可以让人更容易记得住，学习的效果也是相当好。较深的概念有延展的接口，提供方向供后期自己去扩展。值得一提的是，目前这本书中文翻译是仍然是[2009年英文版的 Python 2.7](https://www.amazon.com/Beginning-Python-Novice-Professional-Experts/dp/1590599829/ref=sr_1_2?ie=UTF8&qid=1508738718&sr=8-2&keywords=beginning+Python%3A+from+novice+to+professional)，而今年（2017年）4月Apress出版社继续推出了[该书最新的第三版](https://www.amazon.com/Beginning-Python-Professional-Magnus-Hetland/dp/1484200292/ref=sr_1_1?ie=UTF8&qid=1508738718&sr=8-1&keywords=beginning+Python%3A+from+novice+to+professional)，已经使用 Python 3 的版本（暂无中文版）。作者 Magnus Lie Hetland 在 2006 年开始写作第一版至今，时隔11年还能继续推出最新版，而且内容质量靠谱，实在难能可贵。
+* [《Python 基础教程》](https://www.amazon.cn/%E5%9B%BE%E7%81%B5%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E4%B8%9B%E4%B9%A6-Python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E8%B5%AB%E7%89%B9%E5%85%B0/dp/B00KAFX65Q/ref=sr_1_1?ie=UTF8&qid=1508737548&sr=8-1&keywords=python+novice)([Beginning Python: From Novice to Professional](https://www.amazon.cn/Beginning-Python-From-Novice-to-Professional-Hetland-Magnus-Lie/dp/1484200292/ref=sr_1_4?ie=UTF8&qid=1508737548&sr=8-4&keywords=python+novice)) 如果在这三本中选一本必看的基础书，个人更偏好、也更推荐这一本。作者对基础知识的讲解清晰明了，内容简单但是并不肤浅。讲解过程通畅，基本不存在费解的情况。代码小片段实例比比皆是，马上就可以动手实践来理解概念，可以让人更容易记得住，学习的效果也是相当好。较深的概念有延展的接口，提供方向供后期自己去扩展。值得一提的是，目前这本书中文翻译仍然是[2009年英文版的 Python 2.7](https://www.amazon.com/Beginning-Python-Novice-Professional-Experts/dp/1590599829/ref=sr_1_2?ie=UTF8&qid=1508738718&sr=8-2&keywords=beginning+Python%3A+from+novice+to+professional)，而今年（2017年）4月Apress出版社继续推出了[该书最新的第三版](https://www.amazon.com/Beginning-Python-Professional-Magnus-Hetland/dp/1484200292/ref=sr_1_1?ie=UTF8&qid=1508738718&sr=8-1&keywords=beginning+Python%3A+from+novice+to+professional)，已经使用 Python 3 的版本（暂无中文版）。作者 Magnus Lie Hetland 在 2006 年开始写作第一版至今，时隔11年还能继续推出最新版，而且内容质量靠谱，实在难能可贵。
 
 
 
@@ -47,7 +47,7 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 如果想进一步详细的了解 Django，有个综合性的教程名叫
 * [《Django 企业开发实战》](http://django-practice-book.com)
 
-该教程包含 gibbook 电子书（免费）以及视频部分（收费）。该教程之所以比较推荐，作者是搜狐的胡阳（[博客地址](https://www.the5fire.com)）。阳哥长期在搜狐大量实际使用 Django，而且对源码比较熟悉，所以该教程讲得深入浅出，有不少独到的见解。
+该教程包含 gitbook 电子书（免费）以及视频部分（收费）。该教程之所以比较推荐，作者是搜狐的胡阳（[博客地址](https://www.the5fire.com)）。阳哥长期在搜狐大量实际使用 Django，而且对源码比较熟悉，所以该教程讲得深入浅出，有不少独到的见解。
 
 ### 2. 文档
 
@@ -60,12 +60,13 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 
 #### 3.1 英文
 
-* [Mastering Django: Core: The Complete Guide to Django 1.8 LTS](https://www.amazon.com/Mastering-Django-Core-Complete-Guide-ebook/dp/B01KR6F4Z2/ref=pd_sim_351_1?_encoding=UTF8&psc=1&refRID=FGPD50FMR491T393ZV8K) 这本书就是大名鼎鼎的 Django Book 的最新版本。本书前7章是连贯的学习教程，可作为入门教材，后面的章节以讲解概念为主。[《中文版的 Django Book》](http://djangobook.py3k.cn/2.0/) 使用的是 Django 1.1 版本，已经严重过时，中文版本仅供参考。作者的主页是  [djangobook.com](http://djangobook.com/)。
+* [Mastering Django: Core: The Complete Guide to Django 1.8 LTS](https://www.amazon.com/Mastering-Django-Core-Complete-Guide-ebook/dp/B01KR6F4Z2/ref=pd_sim_351_1?_encoding=UTF8&psc=1&refRID=FGPD50FMR491T393ZV8K) 这本书就是大名鼎鼎的 Django Book 的最新版本。本书前7章是连贯的学习教程，可作为入门教材，后面的章节以讲解概念为主。[《中文版的 Django Book》](http://djangobook.py3k.cn/2.0/) 使用的是 Django 1.1 版本，已经严重过时，中文版本仅供参考。作者的主页是  [djangobook.com](http://djangobook.com/)。图灵社区于今年（2017年）5月出版了这本书的[中文翻译版](http://www.ituring.com.cn/book/2401)。
+
 * [Hello Web App](https://www.amazon.com/Hello-Web-App-Tracy-Osborn/dp/0986365912?tag=tsp0c2-20) 作者之前主要从事前段工作，以一个新手的视角来完成本书。整书叙述流畅，以及跟着书完成代码。作者还有一本后续的书籍 [Hello Web App: Intermediate Concepts](https://www.amazon.com/Hello-Web-App-Intermediate-Concepts/dp/0986365920/ref=pd_bxgy_14_2?_encoding=UTF8&pd_rd_i=0986365920&pd_rd_r=9PT5VMN8HB8TZ0NH9HTP&pd_rd_w=sw4hX&pd_rd_wg=LsbKy&psc=1&refRID=9PT5VMN8HB8TZ0NH9HTP) ，内容稍微深一些。
 
 另外有人也经常推荐以下内容，供参考：
 
-*  [Tango With Django: A beginner's Guide to Web Development With Python / Django 1.9](https://www.amazon.com/gp/product/B01N91N65Y/?tag=tsp0c2-20) 值得注意的是这本书被列为 Two Scoops 的作者列为过时书籍。
+*  [Tango With Django: A beginner's Guide to Web Development With Python / Django 1.9](https://www.amazon.com/gp/product/B01N91N65Y/?tag=tsp0c2-20) 值得注意的是这本书被 Two Scoops 的作者列为过时书籍。
 *  [Django Girls Tutorial](https://tutorial.djangogirls.org/en/) Django Girl严格来说已经相当于是一个商业组织，因为该组织在卖周边、做培训，但是入门教程还是不错的，内容基本与 Tango with Django 类似。最近还推出该入门教程的[扩展部分](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/)。
 
 
@@ -86,7 +87,7 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 
 ### 1. 视频
 
-中文视频内容有很多，但是从内容的深度、广度、教学实践、教学质量来看，推荐慕课网的强力 Django 内容。
+中文视频内容有很多，但是从内容的深度、广度、教学实践、教学质量来看，推荐慕课网的强力 Django 课程作为进阶必看课程。
 
 * [强力django+杀手级xadmin打造上线标准的在线教育平台](http://coding.imooc.com/class/78.html) 慕课网付费课程。虽然收费，但是课程质量上佳。内含一个 refresh 的小项目和一个较大的系统项目，涉及 Django 的内容较广，完成后可以达到上线标准。常被誉为“Django课程的良心之作”。
 
@@ -99,7 +100,7 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 ### 2. 书籍
 
 
-* Two Scoops of Django：目前有两个版本 [Two Scoops of Django: Best Practices for Django 1.11](https://www.twoscoopspress.com/products/two-scoops-of-django-1-11) 和 [Two Scoops of Django: Best Practices for Django 1.8](https://www.amazon.com/Two-Scoops-Django-Best-Practices/dp/0981467342/ref=pd_bxgy_14_img_3?_encoding=UTF8&pd_rd_i=0981467342&pd_rd_r=FJBAW39ZPPH73AXZQRP0&pd_rd_w=qPOZk&pd_rd_wg=caiaO&psc=1&refRID=FJBAW39ZPPH73AXZQRP0) 。这本书在 Django 的名气也是非常大，基本可以说影响过大多数 Django 开发人员，如果要进阶称为 Django 专业开发者，这本书是绕不过去的必看书籍。内容主要涵盖 Django 的最佳实践。
+* Two Scoops of Django：目前有两个版本 [Two Scoops of Django: Best Practices for Django 1.11](https://www.twoscoopspress.com/products/two-scoops-of-django-1-11) 和 [Two Scoops of Django: Best Practices for Django 1.8](https://www.amazon.com/Two-Scoops-Django-Best-Practices/dp/0981467342/ref=pd_bxgy_14_img_3?_encoding=UTF8&pd_rd_i=0981467342&pd_rd_r=FJBAW39ZPPH73AXZQRP0&pd_rd_w=qPOZk&pd_rd_wg=caiaO&psc=1&refRID=FJBAW39ZPPH73AXZQRP0) 。这本书在 Django 的名气也是非常大，基本可以说影响过大多数 Django 开发人员（可类比的是 Flask 界的[『狗书』](https://www.amazon.cn/Flask-Web%E5%BC%80%E5%8F%91-%E5%9F%BA%E4%BA%8EPython%E7%9A%84Web%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98-%E6%A0%BC%E6%9E%97%E5%B8%83%E6%88%88/dp/B00QT2TQCG/ref=sr_1_1?ie=UTF8&qid=1508804881&sr=8-1&keywords=flask+web%E5%BC%80%E5%8F%91)作者 [Miguel Gringberg](https://blog.miguelgrinberg.com/index)）。如果要进阶成为 Django 专业开发者，这本书是绕不过去的必看书籍。内容主要涵盖 Django 的最佳实践。
 
 * [Django By Example](https://www.amazon.com/Django-Example-Antonio-Mele/dp/1784391913/ref=sr_1_1?ie=UTF8&qid=1499261611&sr=8-1&keywords=django+by+example) 在进阶的课程中，本书算是不错的。虽然一些章节（比如第7章）部分代码仍然存在 bug，但是一方面作者正在该书主页不断进行代码更正，另一方面也是对中国读者最好的是，这本书已经由同在简书的 [@夜夜月](http://www.jianshu.com/u/390b6edb26a8) 进行了全书翻译：[《Django By Example》中文版](http://www.jianshu.com/c/a1fbca21af87)。
 
