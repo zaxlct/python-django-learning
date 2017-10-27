@@ -172,13 +172,18 @@ django-rest-framework 的文档分为英文和中文。英文就是原版的网�
 
 * Python 基础部分：增加推荐《Python 基础教程》
 
-* Django 进阶部分，2. 书籍：增加《Python Web 测试驱动方法》。
+* Django 进阶部分，2. 书籍：增加《Python Web 测试驱动方法》
 
-* Django 进阶部分，3. 博客：增加 "Huang Huang 的博客"。
+* Django 进阶部分，3. 博客：增加 "Huang Huang 的博客"
 
-* Django RESTful API，2. 视频：增加 "Vue+Django REST framework 打造生鲜电商项目"。
+* Django RESTful API，2. 视频：增加 "Vue+Django REST framework 打造生鲜电商项目"
 
 * 修改部分格式错误。
+
+
+### 2017-10-27 更新内容
+
+* 增加对 Django 版本的说明
 
 
 
