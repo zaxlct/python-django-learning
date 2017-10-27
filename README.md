@@ -24,6 +24,10 @@
 
 **注意：[目前在维护 Django 版本](https://en.wikipedia.org/wiki/Django_(web_framework))为：Django 1.8（长期支持版，LTS），Django 1.10，Django 1.11（最新版，长期支持版，LTS，也是最后一个支持 Python2的版本）。**
 
+Django 1.8 官方只维护到 2018 年 4 月，Django 官方会继续为其提供相应的安全补丁。考虑到 Django 1.8 版本即将过期，因此建议从目前开始新项目都采用 Django 1.11 开发。Django 1.11 将是最后一个兼容 Python 2 的 Django 版本，将维护至 2020 年 4 月。Django 2.0 即将在 2017 年 12 月推出，从 2.0 版本开始，Django 将只支持 Python 3。Python 3 逐渐成为 Python 开发的趋势，类似 Instagram 等大公司近两年逐渐向 Python 3 迁移。
+
+Python 3 最引人注目的是其原生异步特点（Python 3.4 实验性引入原生异步，在 Python 3.6 正式成为原生内置标准库），但是 Python 的异步生态仍未大规模广泛建立。虽然 Python 异步 web 开发框架有老牌、稳定、庞大的 Twisted（2000年初开发）、以及 2009 年 Facebook 开源出来的 Tornado，但是当前 Python web 开发的主流仍旧是包括 Django 与 Flask 在内的 Python web 同步框架。异步开发特点是一旦选择异步，整条技术栈都要换成异步相关的库（这也意味着难度大、风险高），否则异步可能就会被阻塞。对比来看，目前异步对性能提升，还没有强大到吸引知名公司去使用 Python 进行异步开发。也许 Mozilla 可能会是第一批进行 Python 异步开发的公司。Mozilla（开发火狐浏览器 Firefox 的公司）的后台目前使用 Flask 开发，据其后台[开发工程师 Tarek Ziade 在 2017 年 6 月的演讲称](https://www.youtube.com/watch?v=lwkDSOVKD7U)，后续的后台系统可能尝试用 aiohttp 进行开发。
+
 如果学习资料是这些版本以前的版本，比如 Django 1.7，则不建议再学习已经过时的资料。对于书籍是否已经过时，Two Scoops 的作者 Daniel R. Greenfeld（也是Django的项目维护者）有一个书籍清单供参考（[Current Django Books](https://www.twoscoopspress.com/pages/current-django-books)）。
 
 Django 的版本以及 Python 开发环境至关重要，请在最开始学习 Django 的时候就引起重视。由于 Python、Django以及其他第三方包的版本不同，有时候会产生与学习资料不一样的结果。建议学习过程中注意两点：
