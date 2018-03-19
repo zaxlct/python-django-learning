@@ -119,6 +119,7 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 
 ### 4. 开源项目
 - [强力django+杀手级xadmin打造上线标准的在线教育平台](https://github.com/zaxlct/imooc-django)
+- [《强力django+杀手级xadmin打造...》视频教程笔记](http://blog.mtianyan.cn/post/8b4c6c13.html)，详细记录了每一章的步骤和重点
 
 
 ## Django RESTful API
