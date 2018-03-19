@@ -19,7 +19,8 @@
 * [《Python 基础教程》](https://www.amazon.cn/%E5%9B%BE%E7%81%B5%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E4%B8%9B%E4%B9%A6-Python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E8%B5%AB%E7%89%B9%E5%85%B0/dp/B00KAFX65Q/ref=sr_1_1?ie=UTF8&qid=1508737548&sr=8-1&keywords=python+novice)([Beginning Python: From Novice to Professional](https://www.amazon.cn/Beginning-Python-From-Novice-to-Professional-Hetland-Magnus-Lie/dp/1484200292/ref=sr_1_4?ie=UTF8&qid=1508737548&sr=8-4&keywords=python+novice)) 如果在这三本中选一本必看的基础书，个人更偏好、也更推荐这一本。作者对基础知识的讲解清晰明了，内容简单但是并不肤浅。讲解过程通畅，基本不存在费解的情况。代码小片段实例比比皆是，马上就可以动手实践来理解概念，可以让人更容易记得住，学习的效果也是相当好。较深的概念有延展的接口，提供方向供后期自己去扩展。值得一提的是，目前这本书中文翻译仍然是[2009年英文版的 Python 2.7](https://www.amazon.com/Beginning-Python-Novice-Professional-Experts/dp/1590599829/ref=sr_1_2?ie=UTF8&qid=1508738718&sr=8-2&keywords=beginning+Python%3A+from+novice+to+professional)，而今年（2017年）4月Apress出版社继续推出了[该书最新的第三版](https://www.amazon.com/Beginning-Python-Professional-Magnus-Hetland/dp/1484200292/ref=sr_1_1?ie=UTF8&qid=1508738718&sr=8-1&keywords=beginning+Python%3A+from+novice+to+professional)，已经使用 Python 3 的版本（暂无中文版）。作者 Magnus Lie Hetland 在 2006 年开始写作第一版至今，时隔11年还能继续推出最新版，而且内容质量靠谱，实在难能可贵。
 
 如果你觉得看视频入门更适合自己，那么我推荐：
-[Python3 入门与进阶](https://coding.imooc.com/class/136.html)（付费课程，但是质量非常高，具体可以看用户评价）
+[Python3 入门与进阶](https://coding.imooc.com/class/136.html)
+（付费课程，但是质量非常高，具体可以看用户评价）
 
 ## Django 与 Python 开发环境问题
 
