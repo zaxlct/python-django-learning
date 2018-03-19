@@ -18,7 +18,8 @@
 
 * [《Python 基础教程》](https://www.amazon.cn/%E5%9B%BE%E7%81%B5%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E4%B8%9B%E4%B9%A6-Python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E8%B5%AB%E7%89%B9%E5%85%B0/dp/B00KAFX65Q/ref=sr_1_1?ie=UTF8&qid=1508737548&sr=8-1&keywords=python+novice)([Beginning Python: From Novice to Professional](https://www.amazon.cn/Beginning-Python-From-Novice-to-Professional-Hetland-Magnus-Lie/dp/1484200292/ref=sr_1_4?ie=UTF8&qid=1508737548&sr=8-4&keywords=python+novice)) 如果在这三本中选一本必看的基础书，个人更偏好、也更推荐这一本。作者对基础知识的讲解清晰明了，内容简单但是并不肤浅。讲解过程通畅，基本不存在费解的情况。代码小片段实例比比皆是，马上就可以动手实践来理解概念，可以让人更容易记得住，学习的效果也是相当好。较深的概念有延展的接口，提供方向供后期自己去扩展。值得一提的是，目前这本书中文翻译仍然是[2009年英文版的 Python 2.7](https://www.amazon.com/Beginning-Python-Novice-Professional-Experts/dp/1590599829/ref=sr_1_2?ie=UTF8&qid=1508738718&sr=8-2&keywords=beginning+Python%3A+from+novice+to+professional)，而今年（2017年）4月Apress出版社继续推出了[该书最新的第三版](https://www.amazon.com/Beginning-Python-Professional-Magnus-Hetland/dp/1484200292/ref=sr_1_1?ie=UTF8&qid=1508738718&sr=8-1&keywords=beginning+Python%3A+from+novice+to+professional)，已经使用 Python 3 的版本（暂无中文版）。作者 Magnus Lie Hetland 在 2006 年开始写作第一版至今，时隔11年还能继续推出最新版，而且内容质量靠谱，实在难能可贵。
 
-
+如果你觉得看视频入门更适合自己，那么我推荐：
+[Python3 入门与进阶](https://coding.imooc.com/class/136.html)（付费课程，但是质量非常高，具体可以看用户评价）
 
 ## Django 与 Python 开发环境问题
 
@@ -115,6 +116,8 @@ Django 的版本以及 Python 开发环境至关重要，请在最开始学习 D
 
 * [Huang Huang 的博客](https://mozillazg.github.io/) 之所以提到这个博客，主要因为作者认真写了三篇关于《High Perfomance Django》的阅读笔记：[笔记一](https://mozillazg.github.io/2015/09/high-performance-django-note-1.html)、[笔记二](https://mozillazg.github.io/2015/09/high-performance-django-note-2.html)、[笔记三](https://mozillazg.github.io/2015/09/high-performance-django-note-3.html)。从数据库优化、缓存、容灾、后台视图完善，这些一点一滴的内容都是 Django 项目开发过程中迟早会遇到的瓶颈，看一下这些内容也许就会对后面的解决方案有更深的理解。比如[『话说Django orm性能为什么比原生的mysqldb慢』](http://xiaorui.cc/2015/09/24/%E8%AF%9D%E8%AF%B4django-orm%E6%A8%A1%E5%9E%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%94%E5%8E%9F%E7%94%9F%E7%9A%84mysqldb%E6%85%A2/)这篇文章就遇到了后台报表页面打开很慢的坑，这也是完善提高 Django 性能的地方。
 
+### 4. 开源项目
+- [强力django+杀手级xadmin打造上线标准的在线教育平台](https://github.com/zaxlct/imooc-django)
 
 
 ## Django RESTful API
@@ -125,7 +128,7 @@ Django 的 REST 化主要是两个第三方包：[django-rest-framework](http://
 
 django-rest-framework 的文档分为英文和中文。英文就是原版的网站，中文有两个作者的翻译，但都是只翻译了入门部分。
 
-* [英文版文档](http://www.django-rest-framework.org/tutorial/quickstart/) 
+* [英文版文档](http://www.django-rest-framework.org/tutorial/quickstart/)
 * 中文文档有两个，可以对照看：[中文文档 Roy 版本](http://www.hi-roy.com/) 以及 [中文文档 Eason版本](https://whatwewant.gitbooks.io/django-rest-framework-tutorial-cn/content/index.html)。
 
 ### 2. 视频
@@ -146,6 +149,9 @@ django-rest-framework 的文档分为英文和中文。英文就是原版的网�
 * [Haiiiiiyun：Django REST 框架 V3 教程](http://www.atjiang.com/tags/#djangorestframework)，讲到 rest 的7门课程。
 
 
+## Django 与 Vue 的结合
+- [《Django + Vue 单页面应用的开发环境搭建步骤》](https://www.jianshu.com/p/fe74907e16b9)
+- 开源项目：[hello-vue-django](https://github.com/zaxlct/hello-vue-django)
 
 ## Django 业界最新信息
 
@@ -157,7 +163,7 @@ django-rest-framework 的文档分为英文和中文。英文就是原版的网�
 
 
 
-## 修改记录 
+## 修改记录
 
 ### 2017-10-23 更新内容
 * Python 基础部分：不再推荐《Python学习手册(第4版)》。基础书籍数量保持三本，增加推荐新书籍，本书不再推荐。
