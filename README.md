@@ -1,5 +1,5 @@
 # python-django-learning
-- python 和 diango 学习资料，书籍，文章，以及实战项目等等
+- python 和 django 学习资料，书籍，文章，以及实战项目等等
 - [仿照慕课网搭建的在线编程学习平台](https://github.com/zaxlct/imooc-django)
 - [基于flask框架开发的微信小程序后端，用于构建小程序商城](https://github.com/bodanli159951/mini-shop-server)
 - QQ 群 163801325
